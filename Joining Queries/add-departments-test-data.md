@@ -132,3 +132,139 @@ PUT /department/_doc/2
   ]
 }
 ```
+```
+PUT /department/_doc/3
+{
+  "name": "HR & Marketing1",
+  "employees": [
+    {
+      "name": "Patricia Lewis",
+      "age": 42,
+      "gender": "F",
+      "position": "Senior Marketing Manager"
+    },
+    {
+      "name": "Maria Anderson",
+      "age": 56,
+      "gender": "F",
+      "position": "Head of HR"
+    },
+    {
+      "name": "Margaret Harris",
+      "age": 19,
+      "gender": "F",
+      "position": "Intern"
+    },
+    {
+      "name": "Ryan Nelson",
+      "age": 31,
+      "gender": "M",
+      "position": "Marketing Manager"
+    },
+    {
+      "name": "Kathy Williams",
+      "age": 49,
+      "gender": "F",
+      "position": "Senior Marketing Manager"
+    },
+    {
+      "name": "Jacqueline Hill",
+      "age": 28,
+      "gender": "F",
+      "position": "Junior Marketing Manager"
+    },
+    {
+      "name": "Donald Morris",
+      "age": 39,
+      "gender": "M",
+      "position": "SEO Specialist"
+    },
+    {
+      "name": "Evelyn Henderson",
+      "age": 24,
+      "gender": "F",
+      "position": "Intern"
+    },
+    {
+      "name": "Earl Moore",
+      "age": 21,
+      "gender": "M",
+      "position": "Junior SEO Specialist"
+    },
+    {
+      "name": "Phillip Sanchez",
+      "age": 35,
+      "gender": "M",
+      "position": "SEM Specialist"
+    }
+  ]
+}
+```
+```
+PUT /department/_doc/4
+{
+  "name": "HR & Marketing2",
+  "employees": [
+    {
+      "name": "Patricia Lewis",
+      "age": 42,
+      "gender": "F",
+      "position": "Senior Marketing Manager"
+    },
+    {
+      "name": "Maria Anderson",
+      "age": 56,
+      "gender": "F",
+      "position": "Head of HR"
+    },
+    {
+      "name": "Margaret Harris",
+      "age": 19,
+      "gender": "F",
+      "position": "Intern"
+    },
+    {
+      "name": "Ryan Nelson",
+      "age": 31,
+      "gender": "M",
+      "position": "Marketing Manager"
+    },
+    {
+      "name": "Kathy Williams",
+      "age": 49,
+      "gender": "F",
+      "position": "Senior Marketing Manager"
+    },
+    {
+      "name": "Jacqueline Hill",
+      "age": 28,
+      "gender": "F",
+      "position": "Junior Marketing Manager"
+    },
+    {
+      "name": "Donald Morris",
+      "age": 39,
+      "gender": "M",
+      "position": "SEO Specialist"
+    },
+    {
+      "name": "Evelyn Henderson",
+      "age": 24,
+      "gender": "F",
+      "position": "Intern"
+    },
+    {
+      "name": "Earl Moore",
+      "age": 21,
+      "gender": "M",
+      "position": "Junior SEO Specialist"
+    },
+    {
+      "name": "Phillip Sanchez",
+      "age": 35,
+      "gender": "M",
+      "position": "SEM Specialist"
+    }
+  ]
+}
+```
